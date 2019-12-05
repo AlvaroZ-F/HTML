@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Exam Design 05-12-2019</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+
+	<body>
+		<div class="grid-container">
+			<div class="HEADER">
+				<div class="flex-containerHEAD">	
+					<svg height="100" width="100">
+						<ellipse cx="50" cy="50" rx="50" fill="blue" />
+						<text fill="#ffffff" font-size="20" font-family="Verdana" x="20" y="60"	>LOGO</text>
+					</svg>
+				</div>
+			</div>
+
+			<div class="NAV">
+				<div class="flex-containerNAV">
+					<p><a href="https://www.google.com">HOME</a></p>
+					<p><a href="https://www.google.com">LINK</a></p>
+					<p><a href="https://www.google.com">LINK</a></p>
+					<p><a href="https://www.google.com">LINK</a></p>
+				</div>
+			</div>
+
+			<div class="MAIN">
+				<form class="grid-form">
+					<table>
+						<tr>
+							<td>
+								<div class="DATA">
+								<label for="name">Name</label><input type="text" name="name" required><br><br>
+								<label for="mail">E-Mail</label><input type="email" name="mail" required><br><br>
+								<label for="phone">Phone Number</label><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required><br>
+								</div>
+							</td>
+							<td>
+								<div class="NOTES">
+								<label for="note">Notes:</label><br>
+								<textarea id="note" rows="5" cols="50"></textarea>
+								</div>
+							</td>
+							<td>
+								<input type="submit" name="submit" value="TEST">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+
+			<div class="ASIDE">
+				Aside .. ..
+			</div>
+
+			<div class="FOOTER">
+				FOOTER
+			</div>
+		</div>
+	</body>
+</html>

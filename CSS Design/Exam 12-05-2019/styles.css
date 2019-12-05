@@ -1,0 +1,74 @@
+body {
+	background-color: white;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1.5fr 0.5fr 1fr;
+	grid-template-areas: "HEADER HEADER" "NAV MAIN" "NAV ASIDE" "FOOTER FOOTER";
+	grid-gap: 5%;
+}
+
+.HEADER { 
+	grid-area: HEADER;
+	 background-color: lightgray;
+}
+
+.NAV { 
+	grid-area: NAV;
+	background-color: lightgray;
+}
+
+.MAIN { 
+	grid-area: MAIN;
+	background-color: lightgray;
+}
+
+.ASIDE { 
+	grid-area: ASIDE;
+	background-color: lightgray;
+}
+
+.FOOTER { 
+	grid-area: FOOTER;
+	background-color: lightgray;
+}
+
+.flex-containerHEAD {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgray;
+	flex-wrap: wrap;
+}
+
+.flex-containerNAV {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgray;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.grid-form {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-template-areas: "DATA DATA" "NOTES NOTES";
+	grid-gap: 5%;
+}
+
+.DATA {
+	grid-area: DATA;
+	background-color: gray;
+}
+
+.NOTES {
+	grid-area: NOTES;
+	background-color: gray;
+}
+
+:required {
+	border: 1px solid red;
+}
