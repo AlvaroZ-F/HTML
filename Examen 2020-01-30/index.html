@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Interface Design Exam 2020-01-30</title>
+		<link href="assets/css/stylemod.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/banner.css">
+		<link rel="stylesheet" href="assets/css/cardPeople.css">
+		<link rel="stylesheet" href="assets/css/table.css">
+		<link rel="stylesheet" href="assets/css/login.css">
+		<script src="assets/js/script.js"></script>
+		<script>
+			window.console = window.console || function(t) {};
+		</script>
+		<script>
+			if (document.location.search.match(/type=embed/gi)) {
+				window.parent.postMessage("resize", "*");
+			}
+		</script>
+	</head>
+
+	<body>
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar bg-light fixed-top">
+			<div class="container">
+				<a class="navbar-brand" href="#">Bootstrap</a>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<button type="button" data-toggle="modal" data-target="#login-modal" class="btn btn-primary">Sign in</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<section class="probootstrap-section probootstrap-bg" style="background-image:url(assets/img/bg-heroimage.jpeg);">
+   			 <div class="container text-center">
+     			 <h2 class="heading probootstrap-animate fadeIn probootstrap-animated" data-animate-effect="fadeIn">Build a landing page for your business or project and generate more leads!</h2>
+    		</div>
+		</section>
+
+		<section>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-sm offset-md-5" style="background-color:lightblue;">A</div>
+					<div class="col-sm" style="background-color:green;">B</div>
+					<div class="col-sm" style="background-color:gray;">C</div>
+					<div class="col-sm" style="background-color:white;"></div>
+					<div class="col-sm" style="background-color:blue;">D</div>
+					<div class="col-sm" style="background-color:green;">E</div>
+				</div>
+			</div>
+
+		</section>
+		
+		<header class="bg-primary text-center py-5 mb-4">
+			<div class="container">
+				<h1 class="font-weight-light text-white">What people are saying...</h1>
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="faders">
+				<div class="left"></div>
+				<div class="right"></div>
+			</div>
+			<div class="items">
+				<div class="entry">
+					<p class="name">Margaret</p>
+					<img src="assets/img/uno.jpg" alt="Smiling person" />
+					<p class="quote">"This is fantastic!"</p>
+				</div>
+				<div class="entry">
+					<p class="name">Robert</p>
+					<img src="assets/img/dos.jpg" alt="Smiling person" />
+					<p class="quote">"Bootstrap is amazing!"</p>
+				</div>
+				<div class="entry">
+				<p class="name">Sarah</p>
+				<img src="assets/img/tres.jpg" alt="Smiling person" />
+				<p class="quote">"Thanks so much!"</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    		<div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Login to Your Account</h1><br>
+					<form>
+						<input type="text" name="user" placeholder="Username">
+						<input type="password" name="pass" placeholder="Password">
+						<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+					</form>
+					
+					<div class="login-help">
+						<a href="#">Register</a> - <a href="#">Forgot Password</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p><a href="#">Designed by Alvaro Zambrana Fernandez 2ºDAW</a></p>
+		
+		<!-- Scripts -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
