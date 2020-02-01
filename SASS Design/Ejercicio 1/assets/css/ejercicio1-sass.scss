@@ -1,0 +1,70 @@
+/* Ejercicio1 Sass. Transformar el codigo a sintaxis scss
+Usa comentarios 
+Usa una paleta de colores para los diferentes elementos
+Utiliza estructuras de anidamiento
+*/
+
+$bgcolorbody: #a38f8f;
+$bgcolor1: #DBDBDB;
+$bgcolor2: #f0e6e6;
+
+
+body {
+  background-color: $bgcolorbody;
+  color: #f9f9f9;
+  font-family: Arial;
+  line-height: 1.5; }
+
+header {
+  border-radius: 4px 4px;
+  border: 4px 4px;
+  width: 100%;
+  background-color: $bgcolor1; }
+  header h1 {
+    color: #333;
+    padding: 2px 4px; }
+    header h1 em {
+      color: #7a0909; }
+
+nav a {
+  color: grey;
+  text-decoration: none; }
+nav a:visited {
+  color: rgb(230, 61, 187); }
+nav a:active {
+  color: rgb(7, 51, 51); }
+nav a:hover {
+  color:darkolivegreen; }
+
+section article {
+  border-radius: 4px 4px;
+  border: 4px 4px;
+  width: 100%;
+  color: #4f4f4f;
+  background-color: $bgcolor2; 
+  margin-top: 1em;
+  font-size: 1.5rem;
+  }
+  section article h1 {
+    color: #e0a934;
+    padding: 2px 1px;
+    margin: 2px 0px; 
+  }
+  section article p {
+    padding: 8px 6px; }
+
+footer {
+  border-radius: 4px 4px;
+  border: 4px 4px;
+  width: 100%;
+  height: 10vh;
+  background-color: $bgcolor1;
+  text-align: center; 
+  position:fixed;
+  bottom: 0;
+  }
+  footer span {
+    color: #333;
+    margin: 10px 20px;
+    padding: 10px 2px; 
+  }
